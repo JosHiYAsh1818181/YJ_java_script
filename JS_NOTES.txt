@@ -1,0 +1,57 @@
+JS IS PROGRAMING LANGUAGE.
+JAVA-SCRIPT IS A DAYNAMICALLY TYPE PROGRAMING LANGUAGE MEANS WE CAN NOT DEFINED DATA TYPE FOR vairables ITS AUTOMATICALLY DEFINED 
+-->we can use CODE EDITOR ( VS-CODE) BECAUSE IT IS FREE.WE CAN CODE EVRY LANGUAGES IN VS-CODE 
+
+TOPIC:-VAIABLES & DATA TYPE
+===========================
+--->console.log("yash") "we can print a message to the console, console.log is print in every new line" 
+
+****vairables****
+-----------------
+RULES:-
+---> variables name are case sensitive;a & A is diffrent.
+--->only letters , undersocre(_),digit and $ is allowed(not even space).
+--->our variables first character is letter or undersocre or $ (digit are not valid name).
+--->reserv word can not be use in vairables.
+--->try to use camle-case to DEFINED variables (for good developer)
+        fullName-->camle case --> use this type of case
+        full-name-->kabab case
+        full_name-->snak case
+        FullName-->pascal case
+
+****variables keywords****
+--------------------------
+three types:-let,const and var.
+1.var --> it is a old method to declare a variable 
+      --> we can declare same name and same value of our variables and same name and diffrent value of our vairables
+2.let --> it is a block scope variable
+      --> we can not declare second time to the same vairables but we can update same variable value 
+    for exam:- false(
+            let name="yash";
+            let name="utsav";
+    )
+    for exam:- true(
+            let name="yash joshi";
+            name="utsav";
+            "UPDATE THE SAME VAIABLES VALUE"
+    )
+    for exam:-true(
+            {
+                let name="yash";
+                console.log(name);
+            }
+
+            {
+                let name="utsav";
+                console.log(name);
+            }
+    )
+3.const ---> it is a block scope vairables
+        ---> vairables cannot be re-declared or update in const .
+
+----> vairables are container for data which is store data,"vari--means change"
+use ("")<-- for strining 
+
+****ASSIGNMENT OPERATOER****
+----------------------------
+FOR EXAM:- A=B <--- it means "b" value give to the "a".
